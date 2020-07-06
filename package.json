@@ -1,0 +1,35 @@
+{
+  "name": "mattr-karsten-web-apis-with-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app",
+    "debug": "ndb app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-panda/mattr-karsten-web-apis-with-express.git"
+  },
+  "keywords": [
+    "Express",
+    "Request",
+    "query"
+  ],
+  "author": "MattR Karsten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-panda/mattr-karsten-web-apis-with-express/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-panda/mattr-karsten-web-apis-with-express#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.0.42",
+    "nodemon": "^1.19.4"
+  }
+}
